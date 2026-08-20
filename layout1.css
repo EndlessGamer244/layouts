@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 15vh;
+    font-weight: 900;
+    display: flex;
+    background-color: hotpink;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 70vh;
+    font-weight: 900;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 900;
+    background-color: crimson;
+}
